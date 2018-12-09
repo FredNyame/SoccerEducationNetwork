@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+}
+
+body {
+  background: url("../images/Banner.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main .logo {
+  width: 230px;
+  margin: 50px auto 0px auto;
+  text-align: center;
+}
+
+.main .logo img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.main .contain {
+  width: 100%;
+}
+
+.main .contain h1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 118px;
+  margin-top: 60px;
+  color: #ffffff;
+}
+
+.main .contain .time_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 550px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main .contain .time_container .time {
+  width: 25%;
+  text-align: center;
+}
+
+.main .contain .time_container .time .circle {
+  display: block;
+  width: 115px;
+  height: 116px;
+  margin: 0 auto;
+  padding: 28px;
+  font-size: 45px;
+  font-weight: 900;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  border-radius: 50%;
+}
+
+.main .contain .time_container .time p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #707070;
+}
+
+.main .note {
+  width: 100%;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.main .note p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 28px;
+}
+
+.main form {
+  width: 100%;
+  text-align: center;
+  margin-top: 28px;
+}
+
+.main form input[type="text"] {
+  max-width: 620px;
+  width: 100%;
+  margin-right: 30px;
+  padding: 20px 10px;
+  border-radius: 3px;
+  border: 0px;
+  font-size: 16px;
+}
+
+.main form .get_notify {
+  padding: 20px 40px;
+  background: rgba(170, 17, 17, 0.85);
+  color: #ffffff;
+  border: 0px;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.main form .get_notify:hover {
+  background: #aa1111;
+}
+
+.main .social {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.main .social #social_links li {
+  margin: 0 28px;
+  display: inline-block;
+}
+
+.main .social #social_links li a {
+  color: white;
+}
+
+.main .social #social_links li a img {
+  width: 100%;
+}
+
+.main .social #social_links #twitter {
+  width: 33px;
+}
+
+.main .social #social_links #insta {
+  width: 34px;
+}
+
+.main .social #social_links #slack {
+  width: 31px;
+}
+
+.main .social #social_links #facebook {
+  width: 17px;
+}
+/*# sourceMappingURL=main.css.map */
