@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900');
 @import 'config';
-@import 'media';
+
 *{
   margin: 0;
   padding: 0;
@@ -159,3 +159,33 @@ body{
     }
   }
 }
+////////////////////////////////////////////
+
+//Mobile Responsive
+//Landscape
+@mixin mediaLG {
+  @media screen and (max-width: 1025px){
+    @content;
+  }
+}
+//Tablet
+@mixin mediaMd {
+  @media screen and (max-width: 769px){
+    @content;
+  }
+}
+
+//mobile
+@mixin mediaSm {
+  @media screen and (max-width: 580px){
+    @content;
+  }
+}
+
+@mixin mediaSx {
+  @media screen and (max-width: 460px){
+    @content;
+  }
+}
+
+@import 'media';

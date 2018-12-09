@@ -166,4 +166,59 @@ body {
 .main .social #social_links #facebook {
   width: 17px;
 }
+
+@media screen and (max-width: 1025px) {
+  .main .contain h1 {
+    margin-top: 30px;
+  }
+  .main .note {
+    margin-top: 35px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .main .logo {
+    margin-top: 80px;
+  }
+  .main .contain h1 {
+    margin-top: 50px;
+    font-size: 98px;
+  }
+  .main .note {
+    margin-top: 70px;
+  }
+  .main form input[type="text"] {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .main .logo {
+    width: 189px;
+    margin-top: 40px;
+  }
+  .main .contain h1 {
+    margin-top: 30px;
+    font-size: 45px;
+  }
+  .main .contain .time_container {
+    max-width: 600px;
+  }
+  .main .contain .time_container .time .circle {
+    width: 81px;
+    height: 82px;
+    font-size: 35px;
+    padding: 18px;
+  }
+  .main .contain .time_container .time p {
+    font-size: 14px;
+  }
+  .main .note {
+    margin-top: 50px;
+  }
+  .main form input[type="text"] {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
