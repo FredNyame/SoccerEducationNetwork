@@ -15,7 +15,7 @@
   ],
   "author": "Fred Nyame",
   "license": "MIT",
-  "homepage": "https://frednyame.github.io/SoccerEducationNetwork",
+  "homepage": "https://frednyame.github.io/SoccerEducationNetwork/",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
