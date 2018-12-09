@@ -177,13 +177,13 @@ body{
 
 //mobile
 @mixin mediaSm {
-  @media screen and (max-width: 580px){
+  @media screen and (max-width: 460px){
     @content;
   }
 }
 
 @mixin mediaSx {
-  @media screen and (max-width: 460px){
+  @media screen and (max-width: 360px){
     @content;
   }
 }
