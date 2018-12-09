@@ -221,4 +221,59 @@ body {
     margin-bottom: 30px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .main .logo {
+    width: 106px;
+    margin-top: 20px;
+  }
+  .main .contain h1 {
+    margin-top: 30px;
+    font-size: 35px;
+  }
+  .main .contain .time_container .time .circle {
+    width: 71px;
+    height: 72px;
+    font-size: 25px;
+    padding: 18px;
+  }
+  .main .contain .time_container .time p {
+    font-size: 12px;
+  }
+  .main .note {
+    margin-top: 35px;
+  }
+  .main .note p {
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .main form {
+    margin-top: 18px;
+  }
+  .main form input[type="text"] {
+    margin-bottom: 10px;
+    padding: 12px;
+  }
+  .main form .get_notify {
+    padding: 16px 34px;
+  }
+  .main .social {
+    margin-bottom: 20px;
+  }
+  .main .social #social_links li {
+    margin: 0 18px;
+  }
+  .main .social #social_links #twitter {
+    width: 23px;
+  }
+  .main .social #social_links #insta {
+    width: 24px;
+  }
+  .main .social #social_links #slack {
+    width: 21px;
+  }
+  .main .social #social_links #facebook {
+    width: 10px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
