@@ -1,0 +1,22 @@
+{
+  "name": "comingsoon",
+  "version": "1.0.0",
+  "description": "HTML5, Sass and JavaScript used to create this coming soon landing page for Soccer Education Network",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredNyame/SoccerEducationNetwork.git"
+  },
+  "keywords": [
+    "Soccer"
+  ],
+  "author": "Fred Nyame",
+  "license": "MIT",
+  "homepage": "https://frednyame.github.io/SoccerEducationNetwork",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
