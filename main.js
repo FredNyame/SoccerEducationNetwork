@@ -23,11 +23,18 @@ function timeDate(){
     let minuteNow = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     let secondNow = Math.floor((distance % (1000 * 60)) / (1000));
 
+    //arr to map over 
+    let arr = [hourTime, minuteNow, secondNow].map(num => num < 10 ? '0' + num : num.toString());
+
+    hourTime = arr[0];
+    minuteNow = arr[1];
+    secondNow = arr[2];
+
     //Display inside HTML
     day.innerHTML = dayTime;
     hours.innerHTML = hourTime;
     minutes.innerHTML = minuteNow;
-    seconds.innerHTML = secondNow;
+    seconds.innerHTML = secondNow; 
 
     //When the time is up
     if(distance < 0) {
